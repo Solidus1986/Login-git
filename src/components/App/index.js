@@ -5,10 +5,22 @@ import { Button, Form, Input } from 'semantic-ui-react';
 // == Import : local
 import './app.scss';
 
+import Login from 'src/components/Login';
+
 // == Composant
 const App = () => (
   <div id="app">
-    <Form>
+    <Login />
+  </div>
+);
+
+// == Export
+export default App;
+
+
+
+/**
+ * <Form>
       <Form.Field
         id='form-input-control-error-email'
         control={Input}
@@ -25,8 +37,4 @@ const App = () => (
       </Form.Field>
       <Button type='submit'>Submit</Button>
     </Form>
-  </div>
-);
-
-// == Export
-export default App;
+ */

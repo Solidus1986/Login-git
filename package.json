@@ -43,6 +43,7 @@
     "build:prod:win": "set NODE_ENV=production && webpack --mode production"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "emotion": "^10.0.27",
     "i": "^0.3.6",
     "prop-types": "^15.7.2",
